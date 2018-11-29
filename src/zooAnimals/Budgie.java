@@ -1,8 +1,6 @@
 package zooAnimals;
 
-import zooAnimals.Cat;
-
-public class Cat extends Mammals{
+public class Budgie extends Bird{
 
 	//Attributes
 	String name;
@@ -12,7 +10,7 @@ public class Cat extends Mammals{
 	
 	
 	//Constructors
-	public Cat(String vSpecies, String vName, String vColour, String vSubCategory, String vNoise) {	
+	public Budgie(String vSpecies, String vName, String vColour, String vSubCategory, String vNoise) {	
 		super(vSpecies, vName, vColour, vSubCategory, vNoise);
 		this.name = vName;
 		this.noise = vNoise;
@@ -22,10 +20,6 @@ public class Cat extends Mammals{
 	
 	
 	//Methods
-	
-	interface makeNoise{
-		
-	}
 	
 	public String toString() {
 		

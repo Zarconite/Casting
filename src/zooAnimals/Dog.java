@@ -1,8 +1,8 @@
 package zooAnimals;
 
-import zooAnimals.Cat;
+import zooAnimals.Dog;
 
-public class Cat extends Mammals{
+public class Dog extends Mammals{
 
 	//Attributes
 	String name;
@@ -12,7 +12,7 @@ public class Cat extends Mammals{
 	
 	
 	//Constructors
-	public Cat(String vSpecies, String vName, String vColour, String vSubCategory, String vNoise) {	
+	public Dog(String vSpecies, String vName, String vColour, String vSubCategory, String vNoise) {	
 		super(vSpecies, vName, vColour, vSubCategory, vNoise);
 		this.name = vName;
 		this.noise = vNoise;
@@ -32,4 +32,3 @@ public class Cat extends Mammals{
 		return "This is a "+this.colour+" "+this.subCatagory+" cat and they are called "+this.name+" And they go "+this.noise + super.toString();
 	}
 }
-

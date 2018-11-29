@@ -22,13 +22,14 @@ public abstract class Animals {
 		
 		//Methods
 		
+		//Interface instead of class \|/
 		interface makeNoise{
 			
 		}
 		
 		public String toString() {
 			
-			return "This is a "+this.colour+" "+this.subCatagory+" "+this.species+ " and they are called "+this.name+" And they go "+this.noise;
+			return "This is a "+this.colour+" "+this.subCatagory+" "+this.species+ " and they are called "+this.name + super.toString();
 		}
 }
 
